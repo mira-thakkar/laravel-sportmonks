@@ -1,0 +1,26 @@
+{
+    "name": "fanbox/laravel-sportmonks",
+    "description": "Integration of sportmonks api",
+    "authors": [
+        {
+            "name": "Mira Thakkar",
+            "email": "mirathakkar94@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Fanbox\\LaravelSportmonks\\": "src/",
+            "Fanbox\\LaravelSportmonks\\Services\\": "src/",
+            "Fanbox\\LaravelSportmonks\\Config\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Fanbox\\LaravelSportmonks\\SportmonksServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
